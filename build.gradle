@@ -1,0 +1,14 @@
+group 'com.tubularlabs.flume'
+version '1.0'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.5
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'org.apache.flume.flume-ng-sinks', name: 'flume-hdfs-sink', version: '1.6.0'
+}
